@@ -1,0 +1,16 @@
+p {
+    color: blueviolet;
+}
+
+#header-paragraph{
+    color:darkslategrey;
+}
+
+#blog-title{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+#blog-description{
+    color: rgba(1, 35, 1, 0.962);
+}
