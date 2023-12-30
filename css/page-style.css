@@ -26,11 +26,41 @@
     word-spacing: 2px;
 } */
 
-#logo-image-url{
+/* #logo-image-url{
     height: 100vh;
     width: 100vw;
     background-image: url("../image/logo_switchtocode.png");
     background-repeat: round;
     background-attachment: scroll;
+} */
+
+
+
+#headings:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: orangered;
+    text-shadow: 10vh;
 }
 
+#outer-div1{
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    margin: 4px;
+}
+/* vertical margins collapse and higher value is applied */
+/* :horizontal margins do not collapse and add the values */
+#outer-div2{
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+    /* margin: auto; */
+}
+
+#inner-div1{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    background-color: brown;
+}
